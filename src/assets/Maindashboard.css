@@ -1,0 +1,70 @@
+
+
+.main-dashboard{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.form-box{
+
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.log-email{
+    background-color: white;
+    border-style: 1px  rgb(0, 58, 250);
+    cursor: pointer;
+}
+.log-email:hover{
+    background-color: aliceblue;
+    color: red;
+
+}
+
+.form-box input{
+    width: 300px;
+    height: 5vh;
+    padding: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.signup-email-btn{
+    background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 3px;
+    border-radius: 2px;
+    outline: none;
+}
+
+.signin-btn{
+    background-color: rgb(15, 86, 201);
+    color: white;
+    width: 250px;
+    margin-left: 30px;
+    margin-top: 20px;
+    height: 5vh;
+    border-style: none;
+    display: grid;
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin-btn:hover{
+    background-color: rgb(18, 74, 163);
+}
+
+
+

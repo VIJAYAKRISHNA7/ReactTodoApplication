@@ -1,0 +1,54 @@
+.about-sky {
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #87cefa, #b9e6ff, #e6f7ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  max-width: 750px;
+  animation: float 4s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+.title {
+  font-size: 28px;
+  color: #005a9e;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.sub-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #0077cc;
+  font-size: 22px;
+}
+
+.desc {
+  color: #003d66;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.list {
+  margin-left: 20px;
+  color: #004466;
+  line-height: 1.8;
+}
+
+.list li {
+  margin-bottom: 8px;
+}
