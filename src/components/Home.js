@@ -18,7 +18,6 @@ function Home() {
             name: task
             
         };
-
         
         setTasklist([...tasklist, newTask]);
         setTask(""); 
